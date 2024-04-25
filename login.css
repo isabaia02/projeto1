@@ -21,7 +21,7 @@ body{
     border-radius: 20px;
 }
 #box2{
-    height: 1171px;
+    height: 980px;
 }
 h2{
     position: relative;
@@ -130,11 +130,126 @@ h2{
     height: 71px;
 }
 
+/* André */
+
+.h2-text{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #000000;
+}
+
+.box-content{
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+    position: relative;
+    width: 674px;
+    margin-top: 242px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 5px solid rgb(224, 224, 224);
+    border-radius: 20px;
+    margin-top: 193px;
+   
+}
+
+.label-text{
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    color: #000000;
+    border: 0;
+    margin-left: 48px;
+    margin-right: 558px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.register-form{
+    position: relative;
+    width: 674px;
+}
+
+.register-button{
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+
+    width: 591px;
+    height: 55px;
+    background-color: #F4AD59;
+    border-radius: 20px;
+    margin-left: 41px;
+    margin-right: 42px;
+    margin-top: 40px;
+}
+
+.header{
+    display: inline-block;
+}
 
 
+.text-field{
+    position: relative;
+    width: 592px;
+    height: 55px;
+    border-color: #000000;
+    border-radius: 20px;
+    padding: 0;
+    margin-left: 41px;
+    margin-right: 41px;
+    margin-top: 9px;
+    margin-bottom: 30px;
+}
 
+#box-register{
+    height: 1171px;
+}
 
+#register-text{
+    position: relative;
+    border: 0;
+    margin-bottom: 82px;
+    margin-right: 211px;
+    margin-left: 48px;
+}
 
+#fsenhaconf{
+    margin-bottom: 0px;
+}
+
+#text{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    display: inline;
+    margin-left: 25px;
+}
+
+#link{
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #161e8b;
+    display: inline;
+}
+
+#hasanaccount{
+    position: relative;
+    border: 0;
+    margin-left: 197px;
+    margin-right: 198px;
+    margin-top: 20px;
+
+}
 
 
 
