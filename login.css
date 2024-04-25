@@ -1,0 +1,141 @@
+body{
+    background-color: #FFFFFF;
+}
+#div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    width: 674px;
+    height: 674px;
+    
+
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    border: 5px solid rgb(224, 224, 224);
+    border-radius: 20px;
+}
+h2{
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+}
+#titleemail{
+    position: absolute;
+    left: 49px;
+    top: 193px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+}
+#email{
+    position: absolute;
+    left: 41px;
+    top: 233px;
+}
+#esqueceu{
+    position: absolute;
+    left: 475px;
+    top: 317px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px; 
+}
+#titlesenha{
+    position: absolute;
+    left: 49px;
+    top: 318px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+}
+#password{
+    position: absolute;
+    left: 41px;
+    top: 358px;
+}
+.campo{
+    border-radius: 20px;
+    width: 592px;
+    height: 55px;
+    border-color: #000000;
+}
+
+#submit{
+    position: absolute;
+    left: 40px;
+    top: 483px;
+
+    border-radius: 20px;
+    border: rgba(244, 173, 89, 1);
+    width: 598px;
+    height: 55px;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+
+    background-color: rgba(244, 173, 89, 1);
+}
+#ntconta{
+    position: absolute;
+    left: 150px;
+    top: 560px; 
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+#cadastre{
+    text-decoration: none;
+    position: absolute;
+    left: 390px;
+    top: 584px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: rgba(244, 173, 89, 1);
+}
+.text1{
+   
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+
+    color: #000000;
+}
+.text2{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+
+    color: #000000;
+}
+#svgtop{
+    position: absolute;
+    left: 80px;
+    top: 51px;
+    width: 204px;
+    height: 71px;
+}
+
+
+
+
+
+
+
+
+
+
+
