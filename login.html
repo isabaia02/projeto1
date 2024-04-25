@@ -19,16 +19,20 @@
 
     </nav>
     <div class="div1" >
-        <div class="boxcenter">
+        <div id="box_login" class="boxcenter">
             <h2 class="text1">Entre na sua conta</h2>
-            <label id="titleemail" class="text2" for="email">Email</label>
+            <label class="text2" for="email">Email</label>
             <input class="campo" type="email" name="email" id="email">
-            <p id="esqueceu" class="text2">Esqueceu sua senha?</p>
-            <label id="titlesenha" class="text2" for="password">Senha</label>
+            <div class="alinhar">
+                <label class="text2" for="password">Senha</label>
+                <p id="esqueceu" class="">Esqueceu sua senha?</p>
+            </div>
             <input class="campo" type="password" name="password" id="password">
-            <input id="submit" class="text1" type="submit" value="ENTRAR">
-            <p id="ntconta" class="text2" >Não tem uma conta?</p>
-            <a href="http://127.0.0.1:5500/login.html" id="cadastre" class="text2">Cadastre-se</a>
+            <input class="submit" class="text1" type="submit" value="ENTRAR">
+            <div class="alinhar">
+                <p  class="end_text" >Não tem uma conta?</p>
+                <a href="cadastro.html"  class="end_link">Cadastre-se</a>
+            </div>
         </div>
     </div>
 </body>
