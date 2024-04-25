@@ -1,7 +1,7 @@
 body{
     background-color: #FFFFFF;
 }
-#div1{
+.div1{
     display: flex;
     align-items: center;
     justify-content: center;
