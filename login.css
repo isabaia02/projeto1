@@ -24,9 +24,9 @@ body{
     height: 1171px;
 }
 h2{
-    position: absolute;
-    left: 40px;
-    top: 10px;
+    position: relative;
+    margin-left: 48px;
+    margin-top: 37px;
     font-weight: 500;
     font-size: 50px;
     line-height: 75px;
