@@ -20,6 +20,9 @@ body{
     border: 5px solid rgb(224, 224, 224);
     border-radius: 20px;
 }
+#box2{
+    height: 1171px;
+}
 h2{
     position: absolute;
     left: 40px;
