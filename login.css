@@ -11,13 +11,11 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     width: 674px;
     height: 674px;
-    
-
+    margin-top: 242px;
     box-sizing: border-box;
-
     background: #FFFFFF;
     border: 5px solid rgb(224, 224, 224);
     border-radius: 20px;
