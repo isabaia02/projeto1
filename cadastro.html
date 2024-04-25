@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <title>Cadastre-se</title>
 </head>
 <body>
     <header>
+        <a href="http://127.0.0.1:5500/login.html"><img id="svgtop" src="img/logo.svg" alt="Logo"></a>
     </header>
-    <div class="boxcenter">
-        <form action="." method="post">
-            <label for="femail">Email</label><br>
+    <div class="div1">
+        <div class="boxcenter">
+            <h2 class="text1">Crie a sua conta</h2>
+            <form action="." method="post" class="register-form">
+            <label id="" class="text2" for="femail">Email</label><br>
             <input type="text" id="femail" name="femail"><br>
-            <label for="fname">Nome completo</label><br>
+            <label class="text2" for="fname">Nome Completo</label><br>
             <input type="text" id="fname" name="fname"><br>
-            <label for="fphone">Telefone</label><br>
+            <label class="text2" for="fphone">Telefone</label><br>
             <input type="tel" id="fphone" name="fphone" pattern="[0-9]{11}"><br>
-            <label for="fage">Idade</label><br>
+            <label class="text2" for="fage">Idade</label><br>
             <input type="number" id="fage" name="fage" min="0" max="150"><br>
-            <label for="fcpf">CPF</label><br>
+            <label class="text2" for="fcpf">CPF</label><br>
             <input type="number" id="fcpf" name="fcpf" pattern="[0-9]{11}"><br>
-            <label for="fsenha">Senha</label><br>
+            <label class="text2" for="fsenha">Senha</label><br>
             <input type="password" id="fsenha" name="fsenha"><br>
-            <label for="fsenhaconf">Confirmar senha</label><br>
+            <label class="text2" for="fsenhaconf">Confirmar senha</label><br>
             <input type="password" id="fsenhaconf" name="fsenhaconf"><br><br>
 
             <input type="submit" value="Cadastrar">
-        </form>
+            </form>
+        </div>
     </div>
-    <footer class="footer">
-        <!-- Adicionar conteúdo ao footer -->
-        <!-- Placeholder -->
-        FOOTER ------------------------------------
-    </footer>
 </body>
 </html>
