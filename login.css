@@ -64,7 +64,7 @@ h2{
     margin-left: 41px;
     border-radius: 20px;
     padding: 1px 10px;
-    width: 592px;
+    width: 572px;
     height: 55px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -128,12 +128,13 @@ h2{
     font-style: normal;
     color: #000000;
 }
-#svgtop{
+.svgtop{
     position: relative;
     margin-left: 80px;
     margin-top: 51px;
     width: 204px;
     height: 71px;
+    user-select: none;
 }
 
 
@@ -145,16 +146,12 @@ h2{
     width: 674px;
 }
 .home-nav {
-    margin-top: 78px;
+    margin-top: 90px;
     display: flex;
     width: 810px;
     align-items: center; /*Adjusted to center vertically*/
     justify-content: flex-end;
     flex-direction: row;
-}
-#home-logo{
-    margin-top: 51px;
-    margin-left: 80px;
 }
 #div1{
     display: flex;
@@ -204,6 +201,7 @@ h2{
     border-radius: 30px;
     margin-left: 20px;
     margin-right: 14px !important;
+    user-select: none;
 }
 #link-enter{
     text-decoration: none;
@@ -221,12 +219,13 @@ h2{
     border: 1px solid #F4AD59 !important;
     padding: 10px 20px;
     border-radius: 30px;
-     
+    user-select: none;
 }
 .img-home{
     width: 330px;
     height: 412px;
     margin-top: 60px;
+
 }
 #section{
     display: flex;
