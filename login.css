@@ -41,34 +41,35 @@ h2{
     flex-direction: row;
     font-family: "Roboto", sans-serif;
     font-style: normal;
-
+    margin-bottom: 0;
     color: #000000;
 }
+#password{
+    margin-bottom: 0;
+}
 #esqueceu{
-    /* position: absolute;
-    left: 475px;
-    top: 317px; */
     display: flex;
     position: relative;
-    margin-left: 354px;
+    margin-left: 485px;
     height: 14px;
     margin-top: 8px;
-   
     font-weight: 500;
     font-size: 16px;
     line-height: 19px; 
 }
 .campo{
     position: relative;
-    margin-left: 41px;
     margin-bottom: 30px;
+    margin-left: 41px;
     border-radius: 20px;
+    padding: 1px 10px;
     width: 592px;
     height: 55px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-size: x-large;
     border-color: #000000;
+    
 }
 
 .submit{
@@ -111,19 +112,17 @@ h2{
    
     font-family: "Poppins", sans-serif;
     font-style: normal;
-
     color: #000000;
 }
 .text2{
     position: relative;
-    margin-bottom: 9px;
     margin-left: 48px;
+    margin-bottom: 0;
     font-weight: 500;
     font-size: 26px;
     line-height: 30px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
-
     color: #000000;
 }
 #svgtop{
@@ -133,6 +132,8 @@ h2{
     width: 204px;
     height: 71px;
 }
+
+
 
 /* André */
 
