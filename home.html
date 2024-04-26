@@ -1,35 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>uniONG</title>
     <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div>
+  <header>
+    
+  </header>
+    <div id="div1">
+      <a href="home.html" id="home-logo"><img src="img/logo.svg" alt="Logo"></a>
       <nav class="home-nav">
-        <a href="http://127.0.0.1:5500/login.html" id="home-logo"><img src="img/logo.svg" alt="Logo"></a>
         <div id="navbar-options">
-          <ul id="home-list">
-            <li class="home-list-item">
+          <div id="home-list">
+            <span class="home-list-item">
               Ongs
-            </li>
-            <li class="home-list-item">
+            </span>
+            <span class="home-list-item">
               Voluntários
-            </li>
-            <li class="home-list-item" id="campanhas-opt">
+            </span>
+            <span class="home-list-item" id="campanhas-opt">
               Campanhas
-            </li>
-            <li class="home-list-item" id="cadastro-opt">
-              Cadastre-se
-            </li>
-            <li class="home-list-item" id="entrar-opt">
-              Entrar
-            </li>
-          </ul>
+            </span>
+            <span class="home-list-item" id="cadastro-opt">
+              <a id="link-cad" href="cadastro.html">Cadastre-se</a>
+            </span>
+            <span class="home-list-item" id="entrar-opt">
+              <a id="link-enter" href="login.html">Entrar</a>
+            </span>
+          </div>
         </div>
       </nav>
     </div>
+    <section>
+      <div id="section">
+      <div>
+        <p id="title-vollkorn">A sua dedicação pode </p>
+      </div>
+      <div>
+        <p id="title-poppins">mudar a vida de alguém.</p>
+      </div>
+      <div>
+        <p id="title-roboto">Na uniONG  - encontre a organização e campanha que desperta o seu desejo de fazer a diferença.</p>
+      </div>
+      <div>
+        <input id="voluntary" type="button" value="Torne-se um voluntário!">
+      </div>
+      <div>
+        <img class="img-home" src="./img/ocg-saving-the-ocean-4O6wnXvTH2o-unsplash 1.png" alt="img 1">
+        <img class="img-home" src="./img/joel-muniz-A4Ax1ApccfA-unsplash 1.png" alt="img 2">
+        <img class="img-home" src="./img/desola-lanre-ologun-IgUR1iX0mqM-unsplash 1.png" alt="img 3">
+        <img class="img-home" src="./img/ocg-saving-the-ocean-4O6wnXvTH2o-unsplash 2.png" alt="img 4">
+      </div>
+    </div>
+  </section>
+    
 </body>
 </html>
