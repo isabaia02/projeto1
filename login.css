@@ -221,20 +221,22 @@ h2{
     border-radius: 30px;
     user-select: none;
 }
-.img-home{
-    width: 330px;
-    height: 412px;
-    margin-top: 60px;
-
+section{
+    margin-top: 291px;
 }
 #section{
     display: flex;
     flex-direction: column;
-    
     align-items: center;
 }
-section{
-    margin-top: 291px;
+#box-img{
+    border-radius: 15px;
+}
+.img-home{
+    width: 330px;
+    height: 412px;
+    margin: 60px 0 0 0;
+
 }
 #title-vollkorn{
     margin-top: 0;
@@ -288,4 +290,235 @@ section{
     padding: 10px 20px;
     border-radius: 30px;
     color: #FFFFFF !important; 
+}
+#sessao-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 53px;
+    width: 1320px;
+    height: 525px;
+    background-color: rgba(255, 247, 238, 1);
+    border-radius: 15px;
+}
+#sessao-2-title-poppins{
+    margin-top: 56px;
+    margin-left: 76px;
+    margin-bottom: 0;
+    width: 322px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+
+    color: #000000;
+}
+#sessao-2-title-roboto{
+    margin-top: 17px;
+    margin-left: 76px;
+    width: 376px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+.home-links{
+    color: rgba(244, 173, 89, 1);
+}
+#opt-explorar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 83px;
+    margin-left: 40px;
+    width: 790px;
+    height: 210px;
+}
+.opt-explorar-span{
+    margin-left: 47px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border: 1px solid #000000;
+    padding: 10px 30px;
+    border-color: black;
+    border-radius: 30px;
+    user-select: none;
+    
+}
+.link-explo{
+    text-decoration: none;
+    color: #000000;
+}
+#camp-o1{
+    width:292px ;
+}
+#camp-03{
+    width: 252px;
+}
+#camp-04{
+    width: 296px;
+}
+#camp-05{
+    width: 267px;
+}
+#camp-10{
+    width: 338px;
+}
+#mais-camp{
+    margin-left: 985px;
+    margin-top: 206px;
+}
+#sessao-3{
+    display: flex;
+    flex-direction: row;
+    width: 1320px;
+    height: 329px;
+    margin-top: 53px;
+    border-radius: 15px;
+    background-color: rgba(255, 215, 168, 1);
+}
+#sessao-3-div-2{
+    display: flex;
+    flex-direction: column;
+}
+#sessao-3-title-poppins{
+    margin-top: 52px;
+    margin-left: 74px;
+    width: 430px;
+    height: 225px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+    color: #000000;
+}
+#sessao-3-title-roboto{
+    margin-top: 85px;
+    margin-left: 33px;
+    width: 660px;
+    height: 134px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+#cad-ong{
+    margin-top: 8px;
+    margin-left: 387px;
+    padding: 10px 25px;
+}
+#sessao-4{
+    margin-top: 53px;
+    width: 1320px;
+    height: 495px;
+    border-radius: 15px;
+    background-color: rgba(255, 247, 238, 1);
+}
+#sessao-4-h2{
+    margin-top: 20px;
+    margin-left: 74px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+    color: #000000;
+}
+#sessao-4-text{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 74px;
+}
+.sessao-4-comt-autor{
+    margin-right: 62px;
+}
+.sessao-4-text-comt{
+    width: 369px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #000000;
+}
+.sessao-4-text-autor{
+    margin-top: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+#sessao-5{
+    margin-top: 56px;
+    width: 1320px;
+    height: 431px;
+    border-radius: 15px;
+    background-color: rgba(255, 247, 238, 1);
+}
+#sessao-5-div-1{
+    display: flex;
+    flex-direction: row;
+}
+#sessao-5-div-text-1{
+    margin-top: 68px;
+    margin-left: 81px;
+}
+#sessao-5-div-text-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-top: 57px;
+    width: 589px;
+    height: 252px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+
+}
+#sessao-5-title-poppins-1{
+    width: 438px;
+    height: 84px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+#sessao-5-title-poppins-2{
+    width: 484px;
+    margin-top: 21px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+
+    color: #000000;
 }
