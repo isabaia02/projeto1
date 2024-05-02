@@ -427,3 +427,11 @@ section{
 
     color: #000000;
 }
+.svgtop{
+    position: relative;
+    margin-left: 80px;
+    margin-top: 51px;
+    width: 204px;
+    height: 71px;
+    user-select: none;
+}
