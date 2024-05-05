@@ -6,7 +6,7 @@
     margin-top: 90px;
     display: flex;
     width: 810px;
-    align-items: center; /*Adjusted to center vertically*/
+    align-items: center;
     justify-content: flex-end;
     flex-direction: row;
 }

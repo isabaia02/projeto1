@@ -38,10 +38,15 @@ h2{
 }
 .alinhar{
     display: flex;
-    flex-direction: row;
+    align-items: center;
     font-family: "Roboto", sans-serif;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    white-space: nowrap;
     font-style: normal;
     margin-bottom: 0;
+    margin-top: 35px;
     color: #000000;
 }
 #password{
@@ -51,7 +56,7 @@ h2{
     display: flex;
     position: relative;
     margin-left: 485px;
-    height: 14px;
+    margin-right: 44px;
     margin-top: 8px;
     font-weight: 500;
     font-size: 16px;
@@ -90,19 +95,18 @@ h2{
 
     background-color: rgba(244, 173, 89, 1);
 }
+.input-submit:hover{
+    background-color: #C16900;
+}
 .end_text{
     position: relative;
-    margin-left: 151px;
-    margin-top: 55px; 
-    margin-right: 18px;
     font-weight: 400;
+    margin-right: 15px;
     font-size: 24px;
     line-height: 28px;
 }
 .end_link{
     position: relative;
-    margin-top: 55px;
-    margin-left: 0;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
