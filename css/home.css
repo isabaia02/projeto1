@@ -53,6 +53,9 @@
     margin-right: 14px !important;
     user-select: none;
 }
+#cadastro-opt:hover{
+    background-color: #232323;
+}
 #link-enter{
     text-decoration: none;
     color: #FFFFFF;
@@ -60,6 +63,9 @@
 #link-cad{
     text-decoration: none;
     color: #000000;
+}
+#link-cad:hover{
+    color: whitesmoke;
 }
 #entrar-opt{
     background-color: #F4AD59;
@@ -71,6 +77,9 @@
     border-radius: 30px;
     user-select: none;
 }
+#entrar-opt:hover {
+    background-color: #C16900;
+  }
 section{
     margin-top: 200px;
 }
@@ -138,18 +147,23 @@ section{
 
     color: #000000;
 }
-#voluntary{
+.voluntary{
+    display: inline-block;
     margin-top: 50px;
     background-color: #F4AD59;
     margin-right: 34px !important;
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    text-decoration: none;
     font-size: 20px;
     border: 1px solid #F4AD59 !important;
     padding: 10px 20px;
     border-radius: 30px;
     color: #FFFFFF !important; 
 }
+.voluntary:hover {
+    background-color: #C16900;
+  }
 #sessao-2{
     display: flex;
     flex-direction: row;
