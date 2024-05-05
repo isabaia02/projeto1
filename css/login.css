@@ -106,7 +106,7 @@ h2{
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    text-decoration: none;
+    text-decoration: underline;
     color: rgba(244, 173, 89, 1);
 }
 .text-poppins{
