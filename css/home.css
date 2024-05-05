@@ -72,7 +72,7 @@
     user-select: none;
 }
 section{
-    margin-top: 291px;
+    margin-top: 200px;
 }
 #section{
     display: flex;
@@ -139,11 +139,12 @@ section{
     color: #000000;
 }
 #voluntary{
-    margin-top: 32px;
+    margin-top: 50px;
     background-color: #F4AD59;
     margin-right: 34px !important;
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    font-size: 20px;
     border: 1px solid #F4AD59 !important;
     padding: 10px 20px;
     border-radius: 30px;
@@ -278,31 +279,31 @@ section{
 #sessao-4{
     margin-top: 53px;
     width: 1320px;
-    height: 495px;
+    height: 530px;
     border-radius: 15px;
     background-color: rgba(255, 247, 238, 1);
 }
 #sessao-4-h2{
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 74px;
+    margin-bottom: 0px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
-    line-height: 75px;
     color: #000000;
 }
 #sessao-4-text{
     display: flex;
     flex-direction: row;
-    margin-top: 30px;
     margin-left: 74px;
+    margin-top: 30px;
 }
 .sessao-4-comt-autor{
     margin-right: 62px;
+    width: 340px;
 }
 .sessao-4-text-comt{
-    width: 369px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -313,6 +314,7 @@ section{
 }
 .sessao-4-text-autor{
     margin-top: 21px;
+    width: 294px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
