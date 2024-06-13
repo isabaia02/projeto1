@@ -1,0 +1,103 @@
+body{
+    background-color: #FFFFFF;
+}
+#body_cad{
+    height: 1666px;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.boxcenter{
+    flex-direction: column;
+    position: relative;
+    margin-top: 242px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 5px solid rgb(224, 224, 224);
+    border-radius: 20px;
+}
+#box_admin{
+    width: 1142px;
+    height: 612px;
+}
+#box_list{
+    width: 1142px;
+    height: 412px;
+    margin-top: 0;
+}
+h2{
+    position: relative;
+    margin-left: 48px;
+    margin-top: 37px;
+    margin-bottom: 82px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 75px;
+}
+.text-field{
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    border-radius: 20px;
+    padding: 1px 10px;
+    width: 980px;
+    height: 55px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: x-large;
+    border-color: #000000;
+}
+.input-submit{
+    position: relative;
+    margin-left: 70px;
+    margin-top: 40px;
+
+    border-radius: 20px;
+    border: rgba(244, 173, 89, 1);
+    width: 1003px;
+    height: 55px;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #000000;
+
+    background-color: rgba(244, 173, 89, 1);
+}
+.input-submit:hover{
+    background-color: #C16900;
+}
+.text-poppins{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #000000;
+}
+.label-text{
+    position: relative;
+    margin-left: 81px;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #000000;
+}
+.svgtop{
+    position: relative;
+    margin-left: 80px;
+    margin-top: 51px;
+    width: 305px;
+    height: 71px;
+    user-select: none;
+}
+#input_search{
+    margin-left: 0;
+}
