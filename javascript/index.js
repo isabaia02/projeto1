@@ -35,7 +35,7 @@ document.getElementById('input_search').addEventListener('input', function() {
 
 function displayUsers(searchValue = '') {
     var users = JSON.parse(localStorage.getItem('users')) || [];
-    var boxList = document.getElementById('box_list');
+    var boxList = document.getElementById('box_list_child');
     boxList.innerHTML = '';
     users.forEach(function(user, index) {
         if (user.name.includes(searchValue) || user.email.includes(searchValue)) {
