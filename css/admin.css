@@ -51,6 +51,15 @@ h2{
     font-size: x-large;
     border-color: #000000;
 }
+#input_search{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 1050px;
+    height: 55px;
+    border-radius: 15px;
+
+}
 .input-submit{
     position: relative;
     margin-left: 70px;
@@ -98,6 +107,16 @@ h2{
     height: 71px;
     user-select: none;
 }
-#input_search{
-    margin-left: 0;
+#close_all{
+    position: relative;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    
+}
+#div_list{
+    display: flex;
+    justify-content: space-between;
 }
