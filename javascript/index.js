@@ -2,6 +2,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
     e.preventDefault();
 
     // Get input values
+   
     var name = document.getElementById('fname').value;
     var email = document.getElementById('email').value;
 
@@ -72,15 +73,10 @@ function deleteUser(index) {
 // Display users when page loads
 displayUsers();
 
-function deleteAll(){
-    var allElement = document.querySelectorAll('.userList');
-    var closeAll = document.getElementById('bottom_CloseAll');
-    closeAll.addEventListener('click', function(){
-        for (let i = 0; i < allElement.length; i++) {
-            allElement[i]=function () {
-                deleteUser(index); 
-            }
-            
-        }
-    });
-}
+var closeAll = document.getElementById('bottom_CloseAll');
+closeAll.addEventListener('click', function(){
+    document.querySelectorAll('.userList').forEach((element) =>{
+        deleteUser(0);
+    })
+    
+});
