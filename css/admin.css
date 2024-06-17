@@ -26,7 +26,7 @@ body{
 }
 #box_list{
     width: 1142px;
-    height: 412px;
+    height: 512px;
     margin-top: 0;
 }
 h2{
@@ -116,7 +116,39 @@ h2{
     border-radius: 15px;
     
 }
+#box_list_child{
+    height: 400px;
+    overflow: auto;
+}
 #div_list{
     display: flex;
     justify-content: space-between;
+}
+.userList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 17px;
+    margin-bottom: 10px;
+
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+
+    color: #000000;
+}
+.closeUserList{
+    width: 20px; 
+    height: 20px; 
+}
+.userList :nth-child(1){
+    width: 870px;
+}
+
+.userList :nth-child(3){
+    width: 1060px;
+
 }

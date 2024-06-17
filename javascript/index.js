@@ -40,14 +40,22 @@ function displayUsers(searchValue = '') {
     users.forEach(function(user, index) {
         if (user.name.includes(searchValue) || user.email.includes(searchValue)) {
             var userDiv = document.createElement('div');
-            userDiv.textContent = 'Name: ' + user.name + ', Email: ' + user.email + ', Date: ' + user.date;
-
+            userDiv.classList.add('userList');
+            var spanName= document.createElement('span');
+            spanName.textContent = 'Name: ' + user.name;
+            var spanEmail= document.createElement('span');
+            spanEmail.textContent = 'Email: ' + user.email;
+            var spanDate= document.createElement('span');
+            spanDate.textContent = 'Date: ' + user.date;
             var deleteButton = document.createElement('button');
-            deleteButton.textContent = 'Delete';
+            deleteButton.textContent = 'x';
+            deleteButton.classList.add('closeUserList');
             deleteButton.addEventListener('click', function() {
                 deleteUser(index);
             });
-
+            userDiv.appendChild(spanName);
+            userDiv.appendChild(spanDate);
+            userDiv.appendChild(spanEmail);
             userDiv.appendChild(deleteButton);
             boxList.appendChild(userDiv);
         }
@@ -63,3 +71,16 @@ function deleteUser(index) {
 
 // Display users when page loads
 displayUsers();
+
+function deleteAll(){
+    var allElement = document.querySelectorAll('.userList');
+    var closeAll = document.getElementById('bottom_CloseAll');
+    closeAll.addEventListener('click', function(){
+        for (let i = 0; i < allElement.length; i++) {
+            allElement[i]=function () {
+                deleteUser(index); 
+            }
+            
+        }
+    });
+}
