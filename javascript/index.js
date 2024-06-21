@@ -30,6 +30,15 @@ document.querySelector('form').addEventListener('submit', function(e) {
     displayUsers();
 });
 
+var clearName=document.getElementById('clearName');
+clearName.addEventListener('click', ()=>{
+    document.getElementById('fname').value = '';
+});
+var clearEmail=document.getElementById('clearEmail');
+clearEmail.addEventListener('click', ()=>{
+    document.getElementById('email').value = '';
+});
+
 document.getElementById('input_search').addEventListener('input', function() {
     displayUsers(this.value);
 });
@@ -48,8 +57,8 @@ function displayUsers(searchValue = '') {
             spanEmail.textContent = 'Email: ' + user.email;
             var spanDate= document.createElement('span');
             spanDate.textContent = 'Date: ' + user.date;
-            var deleteButton = document.createElement('button');
-            deleteButton.textContent = 'x';
+            var deleteButton = document.createElement('span');
+            deleteButton.textContent = 'X';
             deleteButton.classList.add('closeUserList');
             deleteButton.addEventListener('click', function() {
                 deleteUser(index);
