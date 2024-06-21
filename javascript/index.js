@@ -1,4 +1,4 @@
-document.querySelector('form').addEventListener('submit', function(e) {
+document.querySelector('form').addEventListener('submit', function (e) {
   e.preventDefault();
 
   // Get input values
@@ -35,7 +35,16 @@ document.querySelector('form').addEventListener('submit', function(e) {
   displayUsers();
 });
 
-document.getElementById('input_search').addEventListener('input', function() {
+var clearName = document.getElementById('clearName');
+clearName.addEventListener('click', () => {
+  document.getElementById('fname').value = '';
+});
+var clearEmail = document.getElementById('clearEmail');
+clearEmail.addEventListener('click', () => {
+  document.getElementById('email').value = '';
+});
+
+document.getElementById('input_search').addEventListener('input', function () {
   displayUsers(this.value);
 });
 
@@ -43,7 +52,7 @@ function displayUsers(searchValue = '') {
   var users = JSON.parse(localStorage.getItem('users')) || [];
   var boxList = document.getElementById('box_list_child');
   boxList.innerHTML = '';
-  users.forEach(function(user, index) {
+  users.forEach(function (user, index) {
     if (user.name.includes(searchValue) || user.email.includes(searchValue)) {
       var userDiv = document.createElement('div');
       userDiv.classList.add('userList');
@@ -53,10 +62,10 @@ function displayUsers(searchValue = '') {
       spanEmail.textContent = 'Email: ' + user.email;
       var spanDate = document.createElement('span');
       spanDate.textContent = 'Date: ' + user.date;
-      var deleteButton = document.createElement('button');
-      deleteButton.textContent = 'x';
+      var deleteButton = document.createElement('span');
+      deleteButton.textContent = 'X';
       deleteButton.classList.add('closeUserList');
-      deleteButton.addEventListener('click', function() {
+      deleteButton.addEventListener('click', function () {
         deleteUser(index);
       });
       userDiv.appendChild(spanName);
@@ -79,7 +88,7 @@ function deleteUser(index) {
 displayUsers();
 
 var closeAll = document.getElementById('bottom_CloseAll');
-closeAll.addEventListener('click', function() {
+closeAll.addEventListener('click', function () {
   document.querySelectorAll('.userList').forEach((element) => {
     deleteUser(0);
   })
