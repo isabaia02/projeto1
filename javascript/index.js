@@ -1,8 +1,6 @@
 document.querySelector('form').addEventListener('submit', function (e) {
   e.preventDefault();
 
-  // Get input values
-
   var name = document.getElementById('fname').value;
   var email = document.getElementById('email').value;
 
@@ -11,23 +9,18 @@ document.querySelector('form').addEventListener('submit', function (e) {
     return false;
   }
 
-  // Get current date and format it to dd/mm/yyyy
   var date = new Date();
   var formattedDate = ('0' + date.getDate()).slice(-2) + '/' + ('0' + (date.getMonth() + 1)).slice(-2) + '/' + date.getFullYear();
 
-  // Create user object
   var user = { name: name, email: email, date: formattedDate };
 
-  // Get existing users from local storage or create new array if none exist
+
   var users = JSON.parse(localStorage.getItem('users')) || [];
 
-  // Add new user to users array
   users.push(user);
 
-  // Save new users array to local storage
   localStorage.setItem('users', JSON.stringify(users));
 
-  // Clear input fields
   document.getElementById('fname').value = '';
   document.getElementById('email').value = '';
 
@@ -35,6 +28,7 @@ document.querySelector('form').addEventListener('submit', function (e) {
   displayUsers();
 });
 
+// ---
 var clearName = document.getElementById('clearName');
 clearName.addEventListener('click', () => {
   document.getElementById('fname').value = '';
@@ -84,7 +78,6 @@ function deleteUser(index) {
   displayUsers();
 }
 
-// Display users when page loads
 displayUsers();
 
 var closeAll = document.getElementById('bottom_CloseAll');
